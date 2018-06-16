@@ -1,0 +1,12 @@
+#photos-forms {
+  display:flex;
+  justify-content: space-between;
+  margin: 75px;
+}
+
+#carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 110px;
+}
