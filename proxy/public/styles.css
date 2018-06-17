@@ -1,3 +1,43 @@
+/* CarouselListEntries */
+@font-face{ 
+  font-family: 'EngraversGothicBT';
+  src: url('./Engravers\'\ Gothic\ BT.ttf')
+}
+
+/* CarouselListEntries */
+@font-face{
+  font-family: 'swansea';
+  src: url('./SWANSE__.TTF');
+}
+
+/* CarouselListEntries, but image tag in Picture.jsx   NOT USED*/
+/* #listEntry:hover #image1{
+  transition: opacity 0.5s ease-in-out;
+  transition-delay: 4.5s;
+  opacity: 0; 
+} */
+
+/* CarouselListEntries, but image tag in Picture.jsx */
+/* #listEntry:hover #image2{
+  transition: opacity 0.5s ease-in-out;
+  transition-delay: 3s;
+  opacity: 0;
+} */
+
+/* CarouselListEntries, but image tag in Picture.jsx */
+/* #listEntry:hover #image3{
+  transition: opacity 0.5s ease-in-out;
+  transition-delay: 1.5s;
+  opacity: 0;
+} */
+
+/* CarouselListEntries, but image tag in Picture.jsx */
+/* #listEntry:hover #image4{
+  transition: opacity 0.5s ease-in-out;
+  transition-delay: 0s;
+  opacity: 0;
+} */
+
 #photos-forms {
   display:flex;
   justify-content: space-between;
@@ -9,4 +49,28 @@
   align-items: center;
   justify-content: center;
   margin-top: 110px;
+}
+
+.next-arrow:hover{
+  display:block;
+  position: absolute;
+  background-image: url("./sprites/001-next.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 100%;
+  left: 885px;
+  top: 130px;
+  opacity: 0.5;
+}
+
+.previous-arrow:hover{
+  display:block;
+  position: absolute;
+  background-image: url("./sprites/002-back.svg");
+  width: 64px;
+  height: 64px;
+  background-size: 100%;
+  left: 0px;
+  top: 130px;
+  opacity: 0.5;
 }
